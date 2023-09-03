@@ -1,0 +1,39 @@
+.Weather {
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
+  border-width: 10px;
+  border-radius: 4px;
+  border-style: hidden;
+  max-width: 960px;
+  display: block;
+  border: 1px solid;
+  border-color: grey;
+  padding: 20px;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature strong {
+  font-size: 48px;
+  line-height: 1;
+}
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -22px;
+  font-weight: 300;
+}
+.Weather .weather-temperature {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Weather .weather-temperature img {
+  max-width: 100%;
+  width: 70px;
+}
